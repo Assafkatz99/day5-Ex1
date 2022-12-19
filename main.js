@@ -69,6 +69,7 @@ const capitalizedFirstLetterOfEachWord = (a) => {
 
 function hostnamePrint () {
 let hostname = location.hostname;  
-console.log(`Hello, your hosname is _${hostname}_. Welcome!`) 
+alert(`Hello, your hosname is _${hostname}_. Welcome!`) 
 }
 
+hostnamePrint()
